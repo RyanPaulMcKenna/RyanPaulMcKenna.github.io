@@ -5,7 +5,7 @@ subtitle: My software engineering notes
 ---
 
 
-Reference of all computer science fundamentals with examples.
+<!-- Reference of all computer science fundamentals with examples.
 
 specific areas:
     - fundamentals like:
@@ -21,4 +21,4 @@ start from the top, be minmalistic, clean and fast, this should not take long.
 How-to-dos in : (As these develop, they can become articles and then be moved off into the posts section, so then we have work flow of notes become posts)
     CUDA, scientific computing, high-performance computing, embedded development, robotics (software eng perspective), simulations,
 
-
+ -->
