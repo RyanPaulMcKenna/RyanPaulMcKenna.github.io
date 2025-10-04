@@ -23,13 +23,13 @@ navbar-links:
   # Resources:
   # - Beautiful Jekyll: "https://beautifuljekyll.com"
   # - Learn markdown: "https://www.markdowntutorial.com/"
-  Notes:
-    - Computer-Science: "compsci"
-    - Software-Engineering: "softeng"
-    - Machine-Learning: "mlpage"
-    - Reinforcement-Learning: "rlpage"
-    - Robotics: "robots"
-    - Mathematics: "maths"
+  # Notes:
+  #   - Computer-Science: "compsci"
+  #   - Software-Engineering: "softeng"
+  #   - Machine-Learning: "mlpage"
+  #   - Reinforcement-Learning: "rlpage"
+  #   - Robotics: "robots"
+  #   - Mathematics: "maths"
   Projects: "projects"
   Papers: "papers"
 
