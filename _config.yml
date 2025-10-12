@@ -201,12 +201,6 @@ repositories:
     url: "Python-Tutorial-Series"
     image: "/assets/img/python.jpg"
     summary: "Python tutorial series and coding examles to learn from."
-  - cuda_programming:
-    name: "cuda programming Series"
-    url: "cuda_programming"
-    image: "/assets/img/cuda.jpg"
-    summary: "Cuda programming examples. Hoping to extend to complex parallelizable algorithms."
-
 
 #################################
 # --- Web Analytics Section --- #
