@@ -4,6 +4,21 @@ layout: page
 
 {{ content }}
 
+<section class="hero">
+  <div class="hero-content">
+    <h1>Engineering Consultancy &amp; Development Services</h1>
+    <p class="tagline">
+      Embedded Systems • Firmware • Linux Drivers • Robotics Simulation
+    </p>
+
+    <div class="hero-buttons">
+      <a href="/assets/pdf/ryan-mckenna-cv.pdf" class="btn primary">📄 Download CV</a>
+      <a href="/projects" class="btn secondary">🔧 View Projects</a>
+      <a href="#contact" class="btn accent">📅 Get in Touch / Book Meeting</a>
+    </div>
+  </div>
+</section>
+
 {% assign posts = paginator.posts | default: site.posts %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
