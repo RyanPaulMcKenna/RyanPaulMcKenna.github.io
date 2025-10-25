@@ -89,6 +89,7 @@
   border-color: #aaa;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); /* subtle depth */
   transform: translateY(-1px); /* gentle lift */
+  color: #008AFF;
 }
 
 /* Active (pressed) state */
