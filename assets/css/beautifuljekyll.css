@@ -1097,7 +1097,7 @@ pre {
 
 .intro-header.big-img {
   position: relative;
-  height: 350px; /* Adjust as desired (e.g., 300–450px) */
+  height: 400px; /* Adjust as desired (e.g., 300–450px) */
   display: flex;
   align-items: center;
   justify-content: center;
