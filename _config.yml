@@ -20,16 +20,7 @@ author: Ryan McKenna
 ###############################################
 navbar-links:
   About Me: "aboutme"
-  # Resources:
-  # - Beautiful Jekyll: "https://beautifuljekyll.com"
-  # - Learn markdown: "https://www.markdowntutorial.com/"
-  # Notes:
-  #   - Computer-Science: "compsci"
-  #   - Software-Engineering: "softeng"
-  #   - Machine-Learning: "mlpage"
-  #   - Reinforcement-Learning: "rlpage"
-  #   - Robotics: "robots"
-  #   - Mathematics: "maths"
+  Articles: "articles"
   Projects: "projects"
   Research & Publications: "publications"
 
