@@ -26,7 +26,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 8rem 4rem;
+  padding: 2.5rem 2.5rem;
   border: 1px solid #e2e2e2;         /* subtle neutral outline */
   border-radius: 10px;               /* soft but not playful */
   background-color: #ffffff;         /* ensures clarity against off-white page */
