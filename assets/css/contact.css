@@ -26,13 +26,11 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 8rem 8rem;
+  padding: 8rem 4rem;
   border: 1px solid #e2e2e2;         /* subtle neutral outline */
   border-radius: 10px;               /* soft but not playful */
   background-color: #ffffff;         /* ensures clarity against off-white page */
   box-shadow: 0 1px 4px rgba(0,0,0,0.04); /* gentle depth */
-
-  max-width: 600px;      /* optional: keep it from stretching too wide */
 }
 
 .contact-form:hover,
