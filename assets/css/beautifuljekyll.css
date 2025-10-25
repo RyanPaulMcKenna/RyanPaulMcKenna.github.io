@@ -675,7 +675,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding: 3.25rem 0;
+  padding: 4.25rem 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
@@ -1093,4 +1093,20 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+}
+
+.intro-header.big-img {
+  position: relative;
+  height: 350px; /* Adjust as desired (e.g., 300–450px) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.intro-header.big-img .page-heading,
+.intro-header.big-img .post-heading {
+  padding: 0; /* Remove the default vertical padding */
+  margin: 0;
 }
