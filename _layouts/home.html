@@ -4,26 +4,35 @@ layout: page
 
 {{ content }}
 
-
 <section class="hero">
   <div class="hero-content">
 
-    <a href="/assets/pdf/ryan-mckenna-cv.pdf" class="btn primary">📄 Download CV</a>
-    <a href="/projects" class="btn secondary">🔧 View Projects</a>
-    <a href="" 
-       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/YOUR_USERNAME/meeting'});return false;" 
-       class="btn accent">
+    <div class="hero-buttons">
+      <a href="/assets/pdf/ryan-mckenna-cv.pdf" class="btn primary">📄 Download CV</a>
+      <a href="/projects" class="btn secondary">🔧 View Projects</a>
+    </div>
+
+  <!-- Contact Form -->
+  <form action="https://formspree.io/f/mdkpnrvw" method="POST" class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit" class="btn primary">📩 Send Message</button>
+    <button type="button"
+            class="btn accent"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ryan-mckenna002/30min'});return false;">
       📅 Book a Meeting
-    </a>
+    </button>
+  </form>
+
   </div>
 </section>
-
-<script type="text/javascript"
-        src="https://assets.calendly.com/assets/external/widget.js"
-        async>
-</script>
-
-
 
 
 {% assign posts = paginator.posts | default: site.posts %}
