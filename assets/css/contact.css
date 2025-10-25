@@ -26,6 +26,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
+  padding: 6-8rem 1rem
 }
 
 .contact-form label {
