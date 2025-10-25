@@ -4,16 +4,27 @@ layout: page
 
 {{ content }}
 
+
 <section class="hero">
   <div class="hero-content">
 
-    <div class="hero-buttons">
-      <a href="/assets/pdf/ryan-mckenna-cv.pdf" class="btn primary">📄 Download CV</a>
-      <a href="/projects" class="btn secondary">🔧 View Projects</a>
-      <a href="https://calendly.com/ryan-mckenna002/30min" class="btn accent">📅 Get in Touch / Book Meeting</a>
-    </div>
+    <a href="/assets/pdf/ryan-mckenna-cv.pdf" class="btn primary">📄 Download CV</a>
+    <a href="/projects" class="btn secondary">🔧 View Projects</a>
+    <a href="" 
+       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/YOUR_USERNAME/meeting'});return false;" 
+       class="btn accent">
+      📅 Book a Meeting
+    </a>
   </div>
 </section>
+
+<script type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async>
+</script>
+
+
+
 
 {% assign posts = paginator.posts | default: site.posts %}
 
