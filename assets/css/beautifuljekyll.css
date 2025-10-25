@@ -649,14 +649,14 @@ footer .footer-custom-content {
   -o-background-size: cover;
   margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 2.1875rem;
-  color: #404040;
+  color: #606060;
 }
 
 .intro-header.big-img::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.65); /* light overlay: brightens the image */
+  background: rgba(255,255,255,0.55); /* light overlay: brightens the image */
   backdrop-filter: brightness(1.15) contrast(0.9); /* optional: enhances softness */
   z-index: 0;
 }
@@ -665,7 +665,7 @@ footer .footer-custom-content {
 .intro-header.big-img h2 {
   position: relative;
   z-index: 1;
-  color: #404040; /* dark grey, not pure black */
+  color: #606060; /* dark grey, not pure black */
   text-shadow: 0 1px 1px rgba(255,255,255,0.3); /* gentle lift on bright background */
 }
 
