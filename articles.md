@@ -5,6 +5,11 @@ subtitle: Writing on Engineering, Robotics, and AI
 ---
 
 
+**Coming soon!**
+
+Stay tuned for upcoming articles on:
+- Embedded systems for intelligent robotics
+- Physics-based simulation and control
 
 {% assign posts = paginator.posts | default: site.posts %}
 
