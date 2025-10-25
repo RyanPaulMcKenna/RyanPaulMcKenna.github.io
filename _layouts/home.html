@@ -27,9 +27,14 @@ layout: page
     <textarea id="message" name="message" rows="4" required></textarea>
 
     <button type="submit" class="btn primary">📩 Send Message</button>
-    <button type="button"
+    <!-- <button type="button"
             class="btn accent"
             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ryan-mckenna002/30min'});return false;">
+      📅 Book a Meeting
+    </button> -->
+    <button type="button"
+            id="calendlyButton"
+            class="btn secondary">
       📅 Book a Meeting
     </button>
   </form>
@@ -38,8 +43,25 @@ layout: page
 </section>
 
 <!-- Calendly script -->
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const btn = document.getElementById("calendlyButton");
+  if (btn) {
+    btn.addEventListener("click", function(e) {
+      e.preventDefault();
+      if (typeof Calendly !== "undefined" && Calendly.initPopupWidget) {
+        Calendly.initPopupWidget({
+          url: "https://calendly.com/ryan-mckenna002/30min"
+        });
+      } else {
+        window.open("https://calendly.com/ryan-mckenna002/30min", "_blank");
+      }
+      return false;
+    });
+  }
+});
+</script>
 
 {% assign posts = paginator.posts | default: site.posts %}
 

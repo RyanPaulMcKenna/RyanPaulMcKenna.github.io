@@ -53,7 +53,8 @@
 .button-group {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem; /* This creates clean spacing between buttons */
 }
 
 .btn {
@@ -75,7 +76,7 @@
 }
 
 .btn.primary {
-  background: #f5f5f5;
+  background: #f6f6f6;
 }
 
 .btn.secondary {
