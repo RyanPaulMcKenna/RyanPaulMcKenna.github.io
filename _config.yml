@@ -191,17 +191,6 @@ repositories:
     url: "algorithms_and_data_structures_and_design_patterns"
     image: "/assets/img/datastruct.jpg"
     summary: "implementations of several algorithms, datastructures and design patterns for educational purposes only."
-  - Cpp-Tutorials-Series:
-    name: "C++ Tutorials Series"
-    url: "Cpp-Tutorial-Series"
-    image: "/assets/img/cpp.jpg"
-    summary: "C++ tutorial series and examples to learn from!"
-  - Python-Tutorial-Series:
-    name: "Python Tutorial Series"
-    url: "Python-Tutorial-Series"
-    image: "/assets/img/python.jpg"
-    summary: "Python tutorial series and coding examles to learn from."
-
 #################################
 # --- Web Analytics Section --- #
 #################################
