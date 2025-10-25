@@ -1,11 +1,7 @@
 ---
-
 layout: page
-
 title: Research & Publications
-
 subtitle: A list of my published research.
-
 ---
 
 
