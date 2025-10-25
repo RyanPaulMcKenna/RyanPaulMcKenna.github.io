@@ -2,7 +2,7 @@
 
 layout: page
 
-title: Publications
+title: Research & Publications
 
 subtitle: A list of my published research.
 
