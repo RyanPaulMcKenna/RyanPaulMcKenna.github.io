@@ -649,7 +649,7 @@ footer .footer-custom-content {
   -o-background-size: cover;
   margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 2.1875rem;
-  color: #909090;
+  color: #404040;
 }
 
 .intro-header.big-img::before {
@@ -665,7 +665,7 @@ footer .footer-custom-content {
 .intro-header.big-img h2 {
   position: relative;
   z-index: 1;
-  color: #909090; /* dark grey, not pure black */
+  color: #404040; /* dark grey, not pure black */
   text-shadow: 0 1px 1px rgba(255,255,255,0.3); /* gentle lift on bright background */
 }
 
