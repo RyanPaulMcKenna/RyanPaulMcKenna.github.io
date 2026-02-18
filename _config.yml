@@ -170,13 +170,13 @@ repositories:
   - 3D-Printable-NEMA-17-Harmonic-Reducer:
     name: "3D Printable NEMA-17 Harmonic-Reducer"
     url: "3D-Printable-NEMA-17-Harmonic-Reducer"
-    image: "/assets/img/motordriver.png"
+    image: "/assets/img/strain-wave-gearbox-render-600px.png"
     summary: "Open-sourced 3D printable Harmonic Reducer for a Nema 17 stepper motor, can easily be adapted to fit other Nema sizes."
-  - Robotic-Arm:
-    name: "6-dof Robotic Arm"
-    url: "Robotic-Arm"
-    image: "/assets/img/robotarm.png"
-    summary: "6 dof Robot arm build from scratch, mechanical, electrical, hardware & software!"
+  - Motor-driver-encoder-CAN-NEMA17:
+    name: "A motor driver for Nema17 stepper"
+    url: "Motor-driver-encoder-CAN-NEMA17"
+    image: "/assets/img/motordriver.png""
+    summary: "A motor driver for Nema 17 stepper motor with 14-bit resolution magnetic encoder and CAN-bus support."
   - algorithms_and_data_structures_and_design_patterns:
     name: "Algorithms, Data-structures & design_patterns"
     url: "algorithms_and_data_structures_and_design_patterns"
